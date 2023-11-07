@@ -70,7 +70,7 @@ document.querySelector("#slider").addEventListener("change", function () {
 
 	document.getElementById('volume').innerHTML = vol + "%";
 
-	video.volume = vol;
+	video.volume = vol / 100;
 });
 
 document.querySelector("#vintage").addEventListener("click", function () {
